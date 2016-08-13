@@ -469,7 +469,9 @@ public class Calculation extends javax.swing.JFrame {
 
     private void BtnOperationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnOperationActionPerformed
         // TODO add your handling code here:
-        
+        double operan = Double.parseDouble(String.valueOf(textDisplay.getText()));
+        operan = operan * (-1);
+        textDisplay.setText(String.format("%.0f", operan));
     }//GEN-LAST:event_BtnOperationActionPerformed
 
     /**
