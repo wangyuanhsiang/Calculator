@@ -38,11 +38,11 @@ public class Calculation extends javax.swing.JFrame {
         Btn1 = new javax.swing.JButton();
         Btn2 = new javax.swing.JButton();
         Btn3 = new javax.swing.JButton();
-        BtnAddAction = new javax.swing.JButton();
+        BtnAdd = new javax.swing.JButton();
         Btn4 = new javax.swing.JButton();
         Btn5 = new javax.swing.JButton();
         Btn6 = new javax.swing.JButton();
-        BtnSubAction = new javax.swing.JButton();
+        BtnSub = new javax.swing.JButton();
         Btn7 = new javax.swing.JButton();
         Btn8 = new javax.swing.JButton();
         Btn9 = new javax.swing.JButton();
@@ -104,12 +104,12 @@ public class Calculation extends javax.swing.JFrame {
             }
         });
 
-        BtnAddAction.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
-        BtnAddAction.setText("+");
-        BtnAddAction.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(204, 204, 204), null, null));
-        BtnAddAction.addActionListener(new java.awt.event.ActionListener() {
+        BtnAdd.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
+        BtnAdd.setText("+");
+        BtnAdd.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(204, 204, 204), null, null));
+        BtnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnAddActionActionPerformed(evt);
+                BtnAddActionPerformed(evt);
             }
         });
 
@@ -140,12 +140,12 @@ public class Calculation extends javax.swing.JFrame {
             }
         });
 
-        BtnSubAction.setFont(new java.awt.Font("MS Reference Sans Serif", 1, 18)); // NOI18N
-        BtnSubAction.setText("-");
-        BtnSubAction.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(204, 204, 204), null, null));
-        BtnSubAction.addActionListener(new java.awt.event.ActionListener() {
+        BtnSub.setFont(new java.awt.Font("MS Reference Sans Serif", 1, 18)); // NOI18N
+        BtnSub.setText("-");
+        BtnSub.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(204, 204, 204), null, null));
+        BtnSub.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnSubActionActionPerformed(evt);
+                BtnSubActionPerformed(evt);
             }
         });
 
@@ -254,7 +254,7 @@ public class Calculation extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(Btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(BtnAddAction, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(BtnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(BtnEqualValue, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
@@ -267,7 +267,7 @@ public class Calculation extends javax.swing.JFrame {
                 .addGap(27, 27, 27)
                 .addComponent(Btn6, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(BtnSubAction, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnSub, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
@@ -301,14 +301,14 @@ public class Calculation extends javax.swing.JFrame {
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(Btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(Btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(BtnAddAction, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(BtnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(Btn6, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(Btn5, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(BtnSubAction, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(BtnSub, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -353,13 +353,13 @@ public class Calculation extends javax.swing.JFrame {
         textDisplay.setText(localnum);
     }//GEN-LAST:event_Btn3ActionPerformed
 
-    private void BtnAddActionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAddActionActionPerformed
+    private void BtnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAddActionPerformed
         // TODO add your handling code here:
         firstnum = Double.parseDouble(textDisplay.getText());
         textDisplay.setText("");
         operation = "+";
 
-    }//GEN-LAST:event_BtnAddActionActionPerformed
+    }//GEN-LAST:event_BtnAddActionPerformed
 
     private void Btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Btn4ActionPerformed
         // TODO add your handling code here:
@@ -414,12 +414,12 @@ public class Calculation extends javax.swing.JFrame {
         textDisplay.setText("");
     }//GEN-LAST:event_BtnClearActionPerformed
 
-    private void BtnSubActionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnSubActionActionPerformed
+    private void BtnSubActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnSubActionPerformed
         // TODO add your handling code here:
         firstnum = Double.parseDouble(textDisplay.getText());
         textDisplay.setText("");
         operation = "-";
-    }//GEN-LAST:event_BtnSubActionActionPerformed
+    }//GEN-LAST:event_BtnSubActionPerformed
 
     private void BtnMutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnMutActionPerformed
         // TODO add your handling code here:
@@ -441,19 +441,19 @@ public class Calculation extends javax.swing.JFrame {
         switch (operation) {
             case "+":
                 this.result = firstnum + secondnum;
-                textDisplay.setText(String.format("%.0f", result));
+                textDisplay.setText(String.format("%.2f", result));
                 break;
             case "-":
                 this.result = firstnum - secondnum;
-                textDisplay.setText(String.format("%.0f", result));
+                textDisplay.setText(String.format("%.2f", result));
                 break;
             case "*":
                 this.result = firstnum * secondnum;
-                textDisplay.setText(String.format("%.0f", result));
+                textDisplay.setText(String.format("%.2f", result));
                 break;
             case "/":
                 this.result = firstnum / secondnum;
-                textDisplay.setText(String.format("%.0f", result));
+                textDisplay.setText(String.format("%.2f", result));
                 break;
             default:
 
@@ -464,7 +464,7 @@ public class Calculation extends javax.swing.JFrame {
     private void BtnSqrtActionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnSqrtActionActionPerformed
         // TODO add your handling code here:
          double localvalue = Double.parseDouble(textDisplay.getText());
-         textDisplay.setText(String.format("%.0f", Math.sqrt(localvalue)));
+         textDisplay.setText(String.format("%.2f", Math.sqrt(localvalue)));
     }//GEN-LAST:event_BtnSqrtActionActionPerformed
 
     private void BtnOperationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnOperationActionPerformed
@@ -520,7 +520,7 @@ public class Calculation extends javax.swing.JFrame {
     private javax.swing.JButton Btn7;
     private javax.swing.JButton Btn8;
     private javax.swing.JButton Btn9;
-    private javax.swing.JButton BtnAddAction;
+    private javax.swing.JButton BtnAdd;
     private javax.swing.JButton BtnClear;
     private javax.swing.JButton BtnDiv;
     private javax.swing.JButton BtnDoc;
@@ -528,7 +528,7 @@ public class Calculation extends javax.swing.JFrame {
     private javax.swing.JButton BtnMut;
     private javax.swing.JButton BtnOperation;
     private javax.swing.JButton BtnSqrtAction;
-    private javax.swing.JButton BtnSubAction;
+    private javax.swing.JButton BtnSub;
     private javax.swing.JTextField textDisplay;
     // End of variables declaration//GEN-END:variables
 }

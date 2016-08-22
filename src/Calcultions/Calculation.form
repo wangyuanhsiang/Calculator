@@ -47,7 +47,7 @@
                   <Group type="102" attributes="0">
                       <Component id="Btn3" min="-2" pref="78" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="BtnAddAction" min="-2" pref="78" max="-2" attributes="0"/>
+                      <Component id="BtnAdd" min="-2" pref="78" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <Component id="BtnEqualValue" min="-2" pref="180" max="-2" attributes="0"/>
@@ -64,7 +64,7 @@
               <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
               <Component id="Btn6" min="-2" pref="78" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="BtnSubAction" min="-2" pref="78" max="-2" attributes="0"/>
+              <Component id="BtnSub" min="-2" pref="78" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
@@ -103,7 +103,7 @@
                       <Component id="Btn3" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
                       <Component id="Btn2" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="BtnAddAction" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="BtnAdd" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
@@ -112,7 +112,7 @@
                       <Component id="Btn6" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
                       <Component id="Btn5" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="BtnSubAction" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="BtnSub" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
@@ -245,7 +245,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btn3ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="BtnAddAction">
+    <Component class="javax.swing.JButton" name="BtnAdd">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Microsoft Sans Serif" size="18" style="1"/>
@@ -260,7 +260,7 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAddActionActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAddActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Btn4">
@@ -317,7 +317,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btn6ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="BtnSubAction">
+    <Component class="javax.swing.JButton" name="BtnSub">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="MS Reference Sans Serif" size="18" style="1"/>
@@ -332,7 +332,7 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnSubActionActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnSubActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Btn7">
